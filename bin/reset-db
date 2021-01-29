@@ -1,0 +1,3 @@
+#! /bin/sh
+./bin/console doc:schema:drop --force --full-database
+./bin/console doc:schema:update --force
